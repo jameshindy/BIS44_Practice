@@ -1,4 +1,4 @@
-#This is a sample R Script for exercise in Git
+plot(mtcars$mpg ~ mtcars$wt)#This is a sample R Script for exercise in Git
 
 #Load documentation from R's pre-loaded dataset
 #Documentation appears in the help pane on RStudio
@@ -14,3 +14,4 @@ mean(mtcars$mpg)
 hist(mtcars$mpg)
 
 #Add some more code below as instructed, then commit to your repository
+plot(mtcars$mpg ~ mtcars$wt)
